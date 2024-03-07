@@ -1,0 +1,46 @@
+
+body{
+    margin: 0;
+    background: linear-gradient(#cc2b5e, #753a88);
+    width: 100vw;
+    height: 100vh;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* width: 100vw; */
+    height: 90vh;
+    color: white;
+}
+
+.content p{
+    margin-top: 0;
+}
+.content h1{
+    margin-bottom: 0;
+}
+
+.content h2{
+    margin: 100px 20px 0px 20px;
+    text-align: center;
+    font-size: 23px;
+}
+
+.content button{
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 30vw;
+    height: 5vh;
+}
+
+#btn:active{
+    background-color: white;
+    color: black;
+}

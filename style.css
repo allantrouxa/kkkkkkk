@@ -1,0 +1,52 @@
+
+
+body{
+    margin: 0;
+    background: linear-gradient(#cc2b5e, #753a88);
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+   
+}
+.content h2{
+    color: white;
+}
+
+.sim{
+    position: absolute;
+    left: 25vw;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 20vw;
+    height: 5vh;
+}
+
+#btnNao{
+    position: absolute;
+    right: 25vw;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 20vw;
+    height: 5vh;
+}
+
+
+
+
+
+

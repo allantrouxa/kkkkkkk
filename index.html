@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="content">
+        <h2>Gostaria de me dar um beijo agr??</h2>
+        <div class="botao">
+            <a href="./pag2.html"><button class="sim">Sim</button></a>
+            <button id="btnNao">Não</button>
+        </div>
+
+</div>
+    <script>
+        var meuBotao = document.getElementById("btnNao")
+
+        meuBotao.addEventListener("mouseover", function () {
+            var novoLeft = Math.floor(Math.random() * window.innerWidth);
+            var novoTop = Math.floor(Math.random() * window.innerHeight);
+            meuBotao.style.left = novoLeft + "px";
+            meuBotao.style.top = novoTop + "px";
+        });
+    </script>
+
+
+    
+</body>
+</html>
